@@ -1,0 +1,634 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabPanels renders correctly in loading state 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    ActivityIndicator: large
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabPanels renders correctly with build tab 1`] = `
+<RCTScrollView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFBFE",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFBFE",
+              "borderColor": "#79747E",
+              "borderWidth": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#E7E0EC",
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "fontFamily": "System",
+                  "fontWeight": "bold",
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              Name
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "fontFamily": "System",
+                  "fontWeight": "bold",
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              Value
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Build Version
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              1.0.0
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabPanels renders correctly with error 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        [
+          {
+            "textAlign": "center",
+          },
+          {
+            "color": "#BA1A1A",
+          },
+        ]
+      }
+    >
+      Error loading diagnostics: 
+      Test error
+    </Text>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabPanels renders correctly with extensions tab in list mode 1`] = `
+<RCTScrollView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        collapsable={false}
+        style={
+          {
+            "flex": 1,
+            "opacity": 1,
+            "transform": [
+              {
+                "scale": 1,
+              },
+              {
+                "translateX": 0,
+              },
+            ],
+          }
+        }
+      >
+        <RCTScrollView
+          accessibilityLabel="Extensions"
+          style={
+            {
+              "backgroundColor": "#FFFBFE",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "minWidth": 0,
+              "padding": 10,
+            }
+          }
+        >
+          <View>
+            Button: Extension One
+          </View>
+        </RCTScrollView>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`TabPanels renders correctly with server tab 1`] = `
+<RCTScrollView
+  style={
+    {
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "padding": 10,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFBFE",
+            "padding": 10,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#FFFBFE",
+              "borderColor": "#79747E",
+              "borderWidth": 1,
+            }
+          }
+        >
+          <View
+            style={
+              {
+                "backgroundColor": "#E7E0EC",
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "fontFamily": "System",
+                  "fontWeight": "bold",
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              Name
+            </Text>
+            <Text
+              style={
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "fontFamily": "System",
+                  "fontWeight": "bold",
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                }
+              }
+            >
+              Value
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Hostname
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              test-host
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Uptime
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Server ID
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              test-server
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Deployment ID
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              test-deployment
+            </Text>
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Node Versions
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            />
+          </View>
+          <View
+            style={
+              {
+                "borderBottomColor": "#79747E",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "paddingBottom": 5,
+                "paddingTop": 5,
+              }
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              Extension Sync | Total Sync All Count
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "flex": 1,
+                    "minWidth": 0,
+                    "paddingLeft": 5,
+                    "paddingRight": 5,
+                  },
+                  {
+                    "color": "#1C1B1F",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "fontFamily": "System",
+                  },
+                ]
+              }
+            >
+              5
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

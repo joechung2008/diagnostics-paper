@@ -1,0 +1,423 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Extension renders correctly with full data 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#FFFBFE",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#1C1B1F",
+          "fontFamily": "System",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      Test Extension
+    </Text>
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFBFE",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 10,
+          }
+        }
+      >
+        Configuration
+      </Text>
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFBFE",
+            "borderColor": "#79747E",
+            "borderWidth": 1,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#E7E0EC",
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#1C1B1F",
+                "flex": 1,
+                "fontFamily": "System",
+                "fontWeight": "bold",
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            Key
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#1C1B1F",
+                "flex": 1,
+                "fontFamily": "System",
+                "fontWeight": "bold",
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            Value
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            setting1
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            value1
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            setting2
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            value2
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "backgroundColor": "#FFFBFE",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "fontFamily": "System",
+            "fontSize": 16,
+            "fontWeight": "bold",
+            "marginBottom": 10,
+          }
+        }
+      >
+        Stage Definitions
+      </Text>
+      <View
+        style={
+          {
+            "backgroundColor": "#FFFBFE",
+            "borderColor": "#79747E",
+            "borderWidth": 1,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#E7E0EC",
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#1C1B1F",
+                "flex": 1,
+                "fontFamily": "System",
+                "fontWeight": "bold",
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            Key
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#1C1B1F",
+                "flex": 1,
+                "fontFamily": "System",
+                "fontWeight": "bold",
+                "paddingLeft": 5,
+                "paddingRight": 5,
+              }
+            }
+          >
+            Value
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            stage1
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            step1, step2
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "borderBottomColor": "#79747E",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "paddingBottom": 5,
+              "paddingTop": 5,
+            }
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            stage2
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "flex": 1,
+                  "minWidth": 0,
+                  "paddingLeft": 5,
+                  "paddingRight": 5,
+                },
+                {
+                  "color": "#1C1B1F",
+                  "flex": 1,
+                  "flexShrink": 1,
+                  "fontFamily": "System",
+                },
+              ]
+            }
+          >
+            step3
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`Extension renders correctly with minimal data 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": 16,
+      "padding": 10,
+    }
+  }
+  style={
+    {
+      "backgroundColor": "#FFFBFE",
+      "flex": 1,
+    }
+  }
+>
+  <View>
+    <Text
+      style={
+        {
+          "color": "#1C1B1F",
+          "fontFamily": "System",
+          "fontSize": 18,
+          "fontWeight": "600",
+          "marginBottom": 10,
+        }
+      }
+    >
+      Minimal Extension
+    </Text>
+  </View>
+</RCTScrollView>
+`;

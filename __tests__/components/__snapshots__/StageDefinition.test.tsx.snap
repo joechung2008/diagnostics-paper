@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StageDefinition renders correctly with empty stage definition 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFBFE",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#1C1B1F",
+        "fontFamily": "System",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+      }
+    }
+  >
+    Stage Definitions
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFBFE",
+        "borderColor": "#79747E",
+        "borderWidth": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E7E0EC",
+          "borderBottomColor": "#79747E",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "flex": 1,
+            "fontFamily": "System",
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Key
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "flex": 1,
+            "fontFamily": "System",
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Value
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`StageDefinition renders correctly with stage definition data 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFBFE",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#1C1B1F",
+        "fontFamily": "System",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 10,
+      }
+    }
+  >
+    Stage Definitions
+  </Text>
+  <View
+    style={
+      {
+        "backgroundColor": "#FFFBFE",
+        "borderColor": "#79747E",
+        "borderWidth": 1,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E7E0EC",
+          "borderBottomColor": "#79747E",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "flex": 1,
+            "fontFamily": "System",
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Key
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#1C1B1F",
+            "flex": 1,
+            "fontFamily": "System",
+            "fontWeight": "bold",
+            "paddingLeft": 5,
+            "paddingRight": 5,
+          }
+        }
+      >
+        Value
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomColor": "#79747E",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        stage1
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        step1, step2, step3
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomColor": "#79747E",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        stage2
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        step4
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "borderBottomColor": "#79747E",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "paddingBottom": 5,
+          "paddingTop": 5,
+        }
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        stage3
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "flex": 1,
+              "minWidth": 0,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            },
+            {
+              "color": "#1C1B1F",
+              "flex": 1,
+              "flexShrink": 1,
+              "fontFamily": "System",
+            },
+          ]
+        }
+      >
+        step5, step6
+      </Text>
+    </View>
+  </View>
+</View>
+`;

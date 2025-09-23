@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly with basic props 1`] = `"Appbar.Header: [object Object],[object Object],false,[object Object]"`;
+
+exports[`Header renders correctly with diagnostics data 1`] = `"Appbar.Header: [object Object],[object Object],[object Object],[object Object]"`;

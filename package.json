@@ -1,22 +1,53 @@
 {
-  "name": "diagnostics-paper",
-  "version": "1.0.0",
-  "main": "index.ts",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
-  },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.2",
     "expo": "~54.0.10",
-    "expo-status-bar": "~3.0.8",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-dom": "19.1.0",
+    "react-native": "0.81.4",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-paper": "^5.14.5",
+    "react-native-web": "^0.21.0",
+    "swr": "^2.3.6"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@testing-library/react-native": "^13.3.3",
+    "@types/jest": "^30.0.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-config-expo": "^10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-jest": "^29.0.1",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-native": "^5.0.0",
+    "eslint-plugin-react-x": "^1.53.1",
+    "jest": "^30.1.3",
+    "jest-expo": "^54.0.12",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.4.4",
     "typescript": "~5.9.2"
   },
-  "private": true
+  "main": "index.ts",
+  "name": "diagnostics-paper",
+  "private": true,
+  "scripts": {
+    "android": "expo start --android",
+    "build:web": "expo export --platform web",
+    "check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "lint": "run-s lint:*",
+    "lint:eslint": "eslint --concurrency=auto",
+    "lint:prettier": "prettier --check .",
+    "ios": "expo start --ios",
+    "start": "expo start",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "web": "expo start --web"
+  },
+  "type": "module",
+  "version": "1.0.0"
 }
