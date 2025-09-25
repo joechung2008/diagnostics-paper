@@ -57,6 +57,17 @@ const Root: React.FC = () => {
     [diagnostics?.extensions, handleExtensionSelect]
   );
 
+  const handleTabClick = useCallback(
+    (value: string) => {
+      // If clicking the already-selected Extensions tab, toggle back to list view
+      if (value === "extensions" && selectedTab === "extensions") {
+        setViewMode("list");
+      }
+      setSelectedTab(value);
+    },
+    [selectedTab]
+  );
+
   return (
     <View style={styles.container}>
       <Header
@@ -70,7 +81,7 @@ const Root: React.FC = () => {
         buttons={tabButtons}
         style={styles.segmentedButtons}
         value={selectedTab}
-        onValueChange={setSelectedTab}
+        onValueChange={handleTabClick}
       />
 
       <TabPanels

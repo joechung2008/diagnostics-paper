@@ -1,6 +1,6 @@
-import React from "react";
-import { PaperProvider, MD3LightTheme } from "react-native-paper";
 import { render } from "@testing-library/react-native";
+import React from "react";
+import { MD3LightTheme, PaperProvider } from "react-native-paper";
 import TabPanels from "../../components/TabPanels";
 
 describe("TabPanels", () => {

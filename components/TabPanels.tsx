@@ -1,11 +1,11 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-import { ActivityIndicator, useTheme, Button } from "react-native-paper";
+import { ActivityIndicator, useTheme } from "react-native-paper";
+import type { Diagnostics, ExtensionInfo, KeyedNavLink } from "../lib/types";
 import BuildInfo from "./BuildInfo";
 import Extension from "./Extension";
 import Extensions from "./Extensions";
 import ServerInfo from "./ServerInfo";
-import type { Diagnostics, ExtensionInfo, KeyedNavLink } from "../lib/types";
 
 interface TabPanelsProps {
   diagnostics: Diagnostics | undefined;
@@ -51,21 +51,9 @@ const TabPanels: React.FC<TabPanelsProps> = ({
               extensions={diagnostics.extensions}
               onLinkClick={onLinkClick}
             />
-          ) : (
-            extension && (
-              <View>
-                <Button
-                  mode="outlined"
-                  icon="arrow-left"
-                  onPress={() => onViewModeChange("list")}
-                  style={{ marginBottom: 8 }}
-                >
-                  Back
-                </Button>
-                <Extension {...extension} />
-              </View>
-            )
-          )}
+          ) : extension ? (
+            <Extension {...extension} />
+          ) : null}
         </View>
       ) : selectedTab === "build" && diagnostics?.buildInfo ? (
         <View style={styles.tabContent}>
