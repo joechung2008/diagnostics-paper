@@ -1,6 +1,6 @@
 import React, { startTransition, useCallback, useState } from "react";
 import { StyleSheet, View } from "react-native";
-import { SegmentedButtons } from "react-native-paper";
+import { SegmentedButtons, useTheme } from "react-native-paper";
 import useSWR from "swr";
 import Header from "../components/Header";
 import TabPanels from "../components/TabPanels";
@@ -15,6 +15,7 @@ const tabButtons = [
 ];
 
 const Root: React.FC = () => {
+  const theme = useTheme();
   const [environment, setEnvironment] = useState<EnvironmentType>(
     Environment.Public
   );
@@ -69,7 +70,9 @@ const Root: React.FC = () => {
   );
 
   return (
-    <View style={styles.container}>
+    <View
+      style={[styles.container, { backgroundColor: theme.colors.background }]}
+    >
       <Header
         environment={environment}
         diagnostics={diagnostics}

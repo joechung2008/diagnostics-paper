@@ -46,3 +46,7 @@ A framework for building native apps using React, allowing code sharing across p
 ### [React Native Paper](https://callstack.github.io/react-native-paper/)
 
 A material design library for React Native, providing cross-platform UI components following Google's Material Design guidelines.
+
+## Theme
+
+This app follows the user's system color scheme using React Native's `useColorScheme` hook (works on iOS, Android and when using `react-native-web` in Expo). The `PaperProvider` automatically switches between Material 3 light and dark themes.

@@ -1,9 +1,18 @@
-import { MD3LightTheme, PaperProvider } from "react-native-paper";
+import { useMemo } from "react";
+import { useColorScheme } from "react-native";
+import { MD3DarkTheme, MD3LightTheme, PaperProvider } from "react-native-paper";
 import Root from "./app/Root";
 
 export default function App() {
+  const scheme = useColorScheme();
+
+  const theme = useMemo(
+    () => (scheme === "dark" ? MD3DarkTheme : MD3LightTheme),
+    [scheme]
+  );
+
   return (
-    <PaperProvider theme={MD3LightTheme}>
+    <PaperProvider theme={theme}>
       <title>
         {
           /* eslint-disable-line react-native/no-raw-text */ "Azure Portal Extensions Dashboard"

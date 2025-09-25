@@ -3,9 +3,14 @@
 exports[`Root renders without crashing 1`] = `
 <View
   style={
-    {
-      "flex": 1,
-    }
+    [
+      {
+        "flex": 1,
+      },
+      {
+        "backgroundColor": "#FFFBFE",
+      },
+    ]
   }
 >
   Appbar.Header: [object Object],[object Object],false,[object Object]
