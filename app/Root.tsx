@@ -1,6 +1,7 @@
 import React, { startTransition, useCallback, useState } from "react";
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
 import { SegmentedButtons, useTheme } from "react-native-paper";
+import { SafeAreaView } from "react-native-safe-area-context";
 import useSWR from "swr";
 import Header from "../components/Header";
 import TabPanels from "../components/TabPanels";
@@ -70,7 +71,7 @@ const Root: React.FC = () => {
   );
 
   return (
-    <View
+    <SafeAreaView
       style={[styles.container, { backgroundColor: theme.colors.background }]}
     >
       <Header
@@ -97,7 +98,7 @@ const Root: React.FC = () => {
         onLinkClick={handleLinkClick}
         onViewModeChange={setViewMode}
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
