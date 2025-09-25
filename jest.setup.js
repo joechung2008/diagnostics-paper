@@ -1,5 +1,3 @@
-import "react-native-gesture-handler/jestSetup";
-
 // Mock for @expo/vector-icons
 jest.mock("@expo/vector-icons", () => ({
   MaterialIcons: "MaterialIcons",

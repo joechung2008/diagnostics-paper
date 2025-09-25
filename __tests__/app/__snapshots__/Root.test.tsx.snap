@@ -1,4 +1,4 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Root renders without crashing 1`] = `
 <View
@@ -25,38 +25,20 @@ exports[`Root renders without crashing 1`] = `
           }
         }
       >
-        <View
-          collapsable={false}
+        <RCTScrollView
+          accessibilityLabel="Extensions"
           style={
             {
-              "flex": 1,
-              "opacity": 1,
-              "transform": [
-                {
-                  "scale": 1,
-                },
-                {
-                  "translateX": 0,
-                },
-              ],
+              "backgroundColor": "#FFFBFE",
+              "flexGrow": 0,
+              "flexShrink": 1,
+              "minWidth": 0,
+              "padding": 10,
             }
           }
         >
-          <RCTScrollView
-            accessibilityLabel="Extensions"
-            style={
-              {
-                "backgroundColor": "#FFFBFE",
-                "flexGrow": 0,
-                "flexShrink": 1,
-                "minWidth": 0,
-                "padding": 10,
-              }
-            }
-          >
-            <View />
-          </RCTScrollView>
-        </View>
+          <View />
+        </RCTScrollView>
       </View>
     </View>
   </RCTScrollView>
