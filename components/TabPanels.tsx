@@ -1,6 +1,6 @@
 import React from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-import { ActivityIndicator, useTheme } from "react-native-paper";
+import { ActivityIndicator, useTheme, Button } from "react-native-paper";
 import BuildInfo from "./BuildInfo";
 import Extension from "./Extension";
 import Extensions from "./Extensions";
@@ -52,7 +52,19 @@ const TabPanels: React.FC<TabPanelsProps> = ({
               onLinkClick={onLinkClick}
             />
           ) : (
-            extension && <Extension {...extension} />
+            extension && (
+              <View>
+                <Button
+                  mode="outlined"
+                  icon="arrow-left"
+                  onPress={() => onViewModeChange("list")}
+                  style={{ marginBottom: 8 }}
+                >
+                  Back
+                </Button>
+                <Extension {...extension} />
+              </View>
+            )
           )}
         </View>
       ) : selectedTab === "build" && diagnostics?.buildInfo ? (
