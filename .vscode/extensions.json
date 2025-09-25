@@ -3,6 +3,7 @@
     "bycedric.vscode-expo-tools",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "msjsdiag.vscode-react-native"
+    "msjsdiag.vscode-react-native",
+    "orta.vscode-jest"
   ]
 }
